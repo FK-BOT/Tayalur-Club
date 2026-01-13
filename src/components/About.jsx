@@ -35,10 +35,10 @@ const About = () => {
                             background: 'rgba(255,255,255,0.05)',
                             padding: '1.5rem'
                         }}>
-                            "Tayalur ka Musalmaan, Devarayasamudra ka Boman, Har jagah rahte hain."
+                            "Tayalur ka Musalmaan, Built on Imaan. Grown with Vision."
                             <br />
                             <span style={{ fontSize: '0.9rem', color: '#888', marginTop: '0.5rem', display: 'block' }}>
-                                — The Muslim of Tayalur, the Boman of Devarayasamudra, their presence is everywhere.
+                                — The Muslim of Tayalur, their presence is everywhere.
                             </span>
                         </blockquote>
                     </motion.div>
