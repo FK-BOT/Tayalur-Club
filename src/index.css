@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap');
+
+:root {
+  --primary: #0047AB;
+  /* Cobalt Blue */
+  --primary-glow: #0066FF;
+  --secondary: #FFFFFF;
+  --text-main: #FFFFFF;
+  --text-muted: #B0B0B0;
+  --bg-dark: #050510;
+  --bg-card: #0F0F1A;
+
+  --glass-bg: rgba(15, 15, 26, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  --gradient-main: linear-gradient(135deg, #0047AB 0%, #001f4d 100%);
+  --gradient-text: linear-gradient(90deg, #fff 0%, #a5c9ff 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+p {
+  color: var(--text-muted);
+}
+
+/* Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.text-gradient {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 71, 171, 0.4);
+}
+
+.btn-primary:hover {
+  background: var(--primary-glow);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 71, 171, 0.6);
+}
+
+
+.section-padding {
+  padding: 8rem 0;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  :root {
+    --text-scale-ratio: 1.2;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  /* Separation */
+  section {
+    margin-bottom: 4rem;
+  }
+
+  .section-padding {
+    padding: 6rem 0;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  /* Grid Collapse */
+  .grid-mobile-1 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Navbar Classes */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+
+  /* Hide Navigation Links on Mobile */
+  .nav-desktop {
+    display: none !important;
+  }
+}
