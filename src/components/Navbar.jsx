@@ -37,13 +37,13 @@ const Navbar = () => {
                 {/* Logo Area */}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', zIndex: 1001 }}>
                     <img src={logo} alt="Tayalur Club" style={{ height: '40px', objectFit: 'contain' }} />
-                    <span style={{
+                    {/*<span style={{
                         fontSize: '1.2rem',
                         fontWeight: '800',
                         letterSpacing: '1px',
                         color: 'var(--text-main)',
                         whiteSpace: 'nowrap'
-                    }}>TAYALUR CLUB</span>
+                    }}>TAYALUR CLUB</span> */}
                 </div>
 
                 {/* Desktop Menu - Hidden on Mobile via CSS */}

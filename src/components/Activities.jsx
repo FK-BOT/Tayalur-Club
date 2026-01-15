@@ -18,21 +18,26 @@ const ActivityCard = ({ icon, title, delay }) => (
         }}
         whileHover={{ y: -10, borderColor: 'var(--primary)' }}
     >
-        <div style={{
-            fontSize: '3rem',
-            color: 'var(--primary-glow)',
-            marginBottom: '1rem',
-            background: 'rgba(0, 71, 171, 0.1)',
-            width: '80px',
-            height: '80px',
-            borderRadius: '50%',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            margin: '0 auto 1.5rem'
-        }}>
+        <motion.div
+            whileHover={{ scale: 1.2, rotate: 10 }}
+            transition={{ type: "spring", stiffness: 300 }}
+            style={{
+                fontSize: '3rem',
+                color: 'var(--primary-glow)',
+                marginBottom: '1rem',
+                background: 'rgba(0, 71, 171, 0.1)',
+                width: '80px',
+                height: '80px',
+                borderRadius: '50%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                margin: '0 auto 1.5rem',
+                cursor: 'pointer'
+            }}
+        >
             {icon}
-        </div>
+        </motion.div>
         <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>{title}</h3>
     </motion.div>
 );
