@@ -37,7 +37,7 @@ const Join = () => {
                     </p>
 
                     <a
-                        href="https://forms.google.com"
+                        href="https://forms.gle/1HCNk1WoPLn8W692A"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{

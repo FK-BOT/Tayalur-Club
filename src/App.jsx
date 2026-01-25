@@ -5,17 +5,19 @@ import About from './components/About';
 import Activities from './components/Activities';
 import Gallery from './components/Gallery';
 import Join from './components/Join';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="app">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Activities />
       <Gallery />
       <Join />
+      <Contact />
       <Footer />
     </div>
   );
