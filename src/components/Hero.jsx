@@ -66,7 +66,7 @@ const Hero = () => {
                         margin: '0 auto 2.5rem',
                         color: 'var(--text-muted)'
                     }}>
-                        "Tayalur ka Musalmaan, Built on Imaan. Grown with Vision."
+                        "Our Roots. Our Legacy. Our Future."
                     </p>
                     <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                         <a href="#join" className="btn-primary">Join The Community</a>
