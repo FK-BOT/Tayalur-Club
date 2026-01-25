@@ -55,7 +55,7 @@ const Navbar = () => {
                         color: 'var(--text-main)',
                         whiteSpace: 'nowrap',
                         fontFamily: "'Outfit', sans-serif"
-                    }}>TAYALUR CLUB</span>
+                    }}></span>
                 </div>
 
                 {/* Mobile Menu Toggle */}
