@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'; // Using logo as the image for now as req
 
 const About = () => {
     return (
-        <section id="about" className="section-padding" style={{ background: 'var(--bg-dark)' }}>
+        <section id="about" className="section-padding" style={{ background: 'var(--bg-dark)', overflow: 'hidden' }}>
             <div className="container">
                 <div style={{
                     display: 'grid',
