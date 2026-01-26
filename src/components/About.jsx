@@ -65,7 +65,7 @@ const About = () => {
                     >
                         <h3 style={{ fontSize: '1.8rem', marginBottom: '1rem', color: 'var(--primary)' }}>Mission Statement</h3>
                         <p style={{ color: '#ccc', lineHeight: '1.6' }}>
-                            To promote the advancement, upliftment, unity, welfare, and well-being of all Tayalur community members, in accordance with Islamic principles, while fostering social responsibility and mutual support within the community.
+                            To promote the advancement, unity, and well-being of all Tayalur community members through shared ethical values, fostering a culture of social responsibility and mutual support.
                         </p>
                     </motion.div>
 
